@@ -1,5 +1,3 @@
-package Array;
-
 public class FindSecondLargest {
     public static void main(String[] args) {
         int[] arr = {10,5,4,6,8,15,17};
@@ -11,7 +9,7 @@ public class FindSecondLargest {
 //        int secondLargest = Integer.MIN_VALUE;
 //        int max = Integer.MIN_VALUE;
 //
-//        for (int num : arr) {
+//        for (int num s: arr) {
 //            if (num > max) {
 //                max = num;
 //            }
