@@ -1,3 +1,5 @@
+package Array;
+
 public class FindSecondLargest {
     public static void main(String[] args) {
         int[] arr = {10,5,4,6,8,15,17};
