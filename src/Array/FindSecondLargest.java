@@ -32,10 +32,18 @@ public class FindSecondLargest {
         int secondLargest = -1;
 
         for (int i = 1; i < arr.length; i++) {
+            // Skipp repeated value...
+            if (arr[i] == firstLargest || arr[i] == secondLargest) {
+                continue;
+            }
+
+            // Check max number and set max for large... and, large for second large...
             if (arr[i] > firstLargest) {
                 secondLargest = firstLargest;
                 firstLargest = arr[i];
-            } else if(arr[i] > secondLargest && arr[i] != firstLargest) {
+            }
+            // Check number is not bigger than large but bigger than second  large...
+            else if(arr[i] > secondLargest) {
                 secondLargest = arr[i];
             }
         }
