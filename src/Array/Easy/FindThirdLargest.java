@@ -1,4 +1,4 @@
-package Array;
+package Array.Easy;
 
 public class FindThirdLargest {
     public static void main(String[] args) {
